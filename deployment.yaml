@@ -17,9 +17,7 @@ spec:
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         ports:
         - containerPort: 8085
-        # env:
-        # - name: SPRING_PROFILES_ACTIVE
-        #   value: "prod"
+        
 
 ---
 apiVersion: v1
